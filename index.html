@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemtikai számolás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Matematikai számolás:</h1>
+<div id="container1" style="display:block">
+    <img src="kepek/kek.png" class="kep" style="margin-left: 240px;">
+    <img src="kepek/piros.png" class="kep" style="margin-left: 10px;">
+<br>
+    <img src="kepek/pluszjel.png" class="kep">
+    <img src="kepek/piros.png" class="kep" style="margin-left: 250px;">
+<br>
+    <img src="kepek/vonal.png">
+<br>
+    <img src="kepek/szurke.png" class="kep" style="margin-left: 240px;">
+    <img src="kepek/szurke.png" class="kep" style="margin-left: 10px;">
+    <h1 class="egyenleg">Egyenleg:</h1>
+</div>
+<div id="container2" style="display:none">
+    <img src="kepek/kek.png" class="kep" style="margin-left: 240px;">
+    <h1 class="szam" style="left: 285px; top: 70px;">1</h1>
+    <img src="kepek/piros.png" class="kep" style="margin-left: 10px;">
+    <h1 class="szam" style="left: 400px; top: 70px; ">6</h1>
+<br>
+    <img src="kepek/pluszjel.png">
+    <img src="kepek/piros.png" class="kep" style="margin-left: 250px;">
+    <h1 class="szam" style="left: 400px; top: 180px;">6</h1>
+<br>
+    <img src="kepek/vonal.png">
+<br>
+    <img src="kepek/szurke.png" class="kep" style="margin-left: 240px;">
+    <h1 class="szam" style="left: 285px; top: 320px;">2</h1>
+    <img src="kepek/szurke.png" class="kep" style="margin-left: 10px;">
+    <h1 class="szam" style="left: 400px; top: 320px;">2</h1>
+    <h1 class="egyenleg">Egyenleg: 22</h1>
+</div>
+    <button onclick="ujratoltes()">Alap</button>
+    <button onclick="csere()">Megoldás</button>
+    <script> 
+        function ujratoltes() { 
+            location.reload(); 
+        } 
+        function csere() {
+            document.getElementById("container1").style.display="none"; 
+            document.getElementById("container2").style.display="block"; 
+        } 
+    </script>
+    </body>
+</html>

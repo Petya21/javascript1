@@ -1,0 +1,22 @@
+#container1 {
+    width: 500px;
+    height: 370px;
+}
+
+#container2 {
+    width: 500px;
+    height: 370px;
+}
+
+.kep {
+    position: relative;
+}
+
+.szam {
+    position: absolute;
+    display: block;
+    font-size: 45px; position: absolute;
+}
+.egyenleg {
+    margin-top: 50px;
+}
